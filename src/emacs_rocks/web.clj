@@ -30,13 +30,11 @@
           (throw (Exception. (str "Asset not loaded: " src)))))))
 
 (defn- use-optimized-assets [html request]
-  (sniptest html
-            [:img] #(update-in % [:attrs :src] (optimize-path-fn request))
-            [:link] #(update-in % [:attrs :href] (optimize-path-fn request))))
+  (sniptest html [:img] #(update-in % [:attrs :src] (optimize-path-fn request))))
 
 (defn- prepare-page [page content request]
   (-> page
-      (render-page content)
+      (render-page content request)
       (use-optimized-assets request)))
 
 (defn update-vals [m f]

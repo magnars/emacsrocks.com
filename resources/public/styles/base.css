@@ -5,8 +5,8 @@ html {background: black url(../images/dark-leather.png) repeat;}
 #logo_link {display: block; text-align: center; margin: 0 auto 20px;}
 
 a,
-.episode_list span {color: #ff9143;}
-.episode_list p {margin-top: 1em; color: #ffaf91;}
+.episode_list .numb {color: #ff9143;}
+.episode_list .name {display: block; margin-top: 1em; color: #ffaf91;}
 .episode_list a {float: left; margin: 14px; width: 197px; height: 113px; padding: 65px 0 0 54px; font-family: monaco, "consolas", "andale mono", "courier new"; font-size: 10px; background: url(../images/splash.png) no-repeat; color: #fff; text-decoration: none;}
 
 #welcome_text { margin: 15px 25px; text-align: center;}
