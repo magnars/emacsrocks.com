@@ -7,4 +7,5 @@
 
 (defn load-content []
   {:episodes (load-edn "episodes.edn")
+   :extending-episodes (load-edn "extending-episodes.edn")
    :commands (slurp-directory "resources/commands/" #"\.html$")})

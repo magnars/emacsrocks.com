@@ -1,0 +1,13 @@
+[{:number "01" :time "2012-06-17" :size  "97mb" :youtube "5axK-VUKJnk" :commits [{:hash "56e0b6e6" :msg "Initial commit."}
+                                                                                 {:hash "e123fabe" :msg "Tests up and running."}]}
+ {:number "02" :time "2012-06-17" :size "129mb" :youtube "Zxt-c_N82_w" :commits [{:hash "b4a79c4e" :msg "Implemented toggle-deffered."}]}
+ {:number "03" :time "2012-06-20" :size "205mb" :youtube "Dgcx5blog6s" :commits [{:hash "f3fe2dd2" :msg "Support hipster quotes."}
+                                                                                 {:hash "e83c3192" :msg "Create a buster minor-mode."}]}
+ {:number "04" :time "2012-06-27" :size "197mb" :youtube "zI4KfUPRU5s" :commits [{:hash "6fb1cf17" :msg "Toggle without moving point."}
+                                                                                 {:hash "029eab32" :msg "Autotest."}
+                                                                                 {:hash "bf7fd38a" :msg "Remove bogus prose."}]}
+ {:number "05" :time "2012-07-01" :size "173mb" :youtube "3-7nLXGf1Xg" :commits [{:hash "f5af5d31" :msg "Toggle focus rocket."}]}
+ {:number "06" :time "2012-08-08" :size "159mb" :youtube "MrCSgAJJnc8" :commits [{:hash "714872b"  :msg "Run tests within Emacs."}]}
+ {:number "07" :time "2012-12-19" :size "118mb" :youtube "lcQWOSQ-PJo" :commits [{:hash "54f0681"  :msg "Use compile and comint."}]}
+ {:number "08" :time "2013-01-17" :size  "90mb" :youtube "RSshC0vWoas" :commits [{:hash "ba7d8da"  :msg "Clean up ansi mess."}]}
+ ]
