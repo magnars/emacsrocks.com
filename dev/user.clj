@@ -1,16 +1,11 @@
 (ns user
   (:require [clojure.java.io :as io]
-            [clojure.string :as str]
-            [clojure.set :as set]
             [clojure.pprint :refer [pprint pp print-table]]
+            [clojure.reflect]
             [clojure.repl :refer :all]
-            [clojure.reflect]))
+            [clojure.set :as set]
+            [clojure.string :as str]
+            [emacs-rocks.system]
+            [quick-reset.core :refer [stop reset system]]))
 
-(defmacro dump-locals []
-  `(clojure.pprint/pprint
-    ~(into {} (map (fn [l] [`'~l l]) (reverse (keys &env))))))
-
-(defn list-functions [o]
-  (print-table
-   (sort-by :name
-            (filter :exception-types (:members (clojure.reflect/reflect o))))))
+(quick-reset.core/set-constructor 'emacs-rocks.system/create-system)

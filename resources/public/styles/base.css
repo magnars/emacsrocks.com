@@ -1,0 +1,41 @@
+html {background: black url(../images/dark-leather.png) repeat;}
+
+#main {width: 560px; margin: 0 auto; padding: 20px; font-family: Palatino, Arial; font-size: 22px; color: #fff;}
+
+#logo_link {display: block; text-align: center; margin: 0 auto 20px;}
+
+a,
+.episode_list span {color: #ff9143;}
+.episode_list p {margin-top: 1em; color: #ffaf91;}
+.episode_list a {float: left; margin: 14px; width: 197px; height: 113px; padding: 65px 0 0 54px; font-family: monaco, "consolas", "andale mono", "courier new"; font-size: 10px; background: url(../images/splash.png) no-repeat; color: #fff; text-decoration: none;}
+
+#welcome_text { margin: 15px 25px; text-align: center;}
+
+#download {font-size: 12px; margin: 10px 0 20px;}
+
+#episode h1 {font-size: 26px; margin-bottom: 10px; color: #ffaf91;}
+#episode h1 span {color: #fff; font-size: 18px;}
+
+#episode,
+#comments,
+#next {background: #000; padding: 20px; margin: 20px -20px; border-radius: 20px;}
+#next ul {list-style: disc; margin-left: 15px;}
+
+#commits {margin: 1em 0;}
+#commits a {font-family: monospace; font-size: 10px; margin-right: 10px;}
+#commits p {font-size: 16px; color: #777; margin-top: 5px;}
+
+#commands {font-size: 16px; margin-top: 2em;}
+#commands h3 {font-size: 18px; font-family: monaco, "consolas", "andale mono", "courier new";}
+#commands p {margin-bottom: 1em; color: #777;}
+
+#github {font-size: 12px;}
+
+#comments {padding-top: 10px; font-size: 15px;}
+#dsq-subscribe {display: none !important;}
+
+.special_series_heading { margin-top: 60px; text-align: center; font-size: 30px; color: #ff9143;}
+
+#feeds { padding-top: 30px; text-align: center; }
+
+#footer { margin-bottom: 200px;}

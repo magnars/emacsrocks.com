@@ -1,16 +1,15 @@
 (defproject emacs-rocks "0.1.0"
   :description "The webpage for emacsrocks.com"
   :url "http://emacsrocks.com"
-  :license {:name "Eclipse Public License"
-            :url "http://www.eclipse.org/legal/epl-v10.html"}
+  :jvm-opts ["-Djava.awt.headless=true"]
   :dependencies [[org.clojure/clojure "1.5.1"]
-                 [stasis "0.7.0"]
-                 [optimus "0.14.2"]
-                 [ring "1.2.1"]
+                 [stasis "2.2.2"]
+                 [optimus "0.15.1"]
+                 [ring "1.3.1"]
+                 [enlive "1.1.5"]
                  [hiccup "1.0.4"]
+                 [prone "0.8.0"]
                  [org.clojure/data.xml "0.0.7"]]
-  :ring {:handler emacs-rocks.core/app
-         :port 3457}
-  :aliases {"build-site" ["run" "-m" "emacs-rocks.core/export"]}
-  :profiles {:dev {:plugins [[lein-ring "0.8.7"]]
+  :profiles {:dev {:dependencies [[ciderale/quick-reset "0.1.1"]
+                                  [org.clojure/tools.namespace "0.2.8"]]
                    :source-paths ["dev"]}})
