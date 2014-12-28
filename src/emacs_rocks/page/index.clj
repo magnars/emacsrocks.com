@@ -37,9 +37,7 @@
     [:a {:href "http://twitter.com/emacsrocks"}
      [:img {:src "/images/twitter.png"}]] " "
     [:a {:href "/atom.xml"}
-     [:img {:src "/images/rss.png"}]] " "
-    [:a {:href "itpc://emacsrocks.com/podcast.xml"}
-     [:img {:src "/images/itunes.png"}]]]
+     [:img {:src "/images/rss.png"}]]]
    [:h2 {:class "special_series_heading"}
     "Extending Emacs"]
    [:p
