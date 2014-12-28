@@ -21,8 +21,9 @@
     (server/stop (:server system)))
   (dissoc system :handler :server))
 
-(defn create-system []
+(defn create-system
   "Returns a new instance of the whole application."
+  []
   {:port 3456
    :start start
    :stop stop})

@@ -2,7 +2,9 @@
   (:require [hiccup.core :refer [html]]))
 
 (defn episode-link [episode]
-  (str "/e" (:number episode) ".html"))
+  (if (:commits episode)
+    (str "/extend/e" (:number episode) ".html")
+    (str "/e" (:number episode) ".html")))
 
 (defn- render-episode [episode]
   (html
@@ -15,7 +17,7 @@
 (defn- render-extending [episode]
   (html
    [:li
-    [:a {:href (str "/extend/e" (:number episode) ".html")}
+    [:a {:href (episode-link episode)}
      "extending emacs "
      [:span.numb ";; " (:number episode)]
      (map (fn [commit] [:span.name (:msg commit)]) (:commits episode))]]))
