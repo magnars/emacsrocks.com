@@ -9,11 +9,12 @@ frontend optimization.
 
 Start a local version:
 
-    lein ring server
+    lein repl
+    (reset)
 
 Build a new version of the site:
 
-    lein build-site
+    ./build.sh
 
 ## License
 
