@@ -28,7 +28,7 @@
     "Yes, emacs does rock. And here are some episodes to prove it. "
     "Follow me on "
     [:a {:href "http://twitter.com/emacsrocks"} "@emacsrocks"]
-    " for more."]
+    [:span.nowrap " for more."]]
    [:div.episode_list
     [:ul
      (map render-episode (reverse (:episodes content)))]]
@@ -54,6 +54,7 @@
    [:p
     "I've also got a blog about setting up your .emacs.d. In the spirit "
     "of Emacs Rocks! all the posts are very short and instantly useful. "
-    [:a {:href "http://whattheemacsd.com"} "Check it out here"]]
+    [:a {:href "http://whattheemacsd.com"}
+     [:span.nowrap "Check it out here"]]]
    [:div {:style "clear: both;"}]
    [:div {:id "footer"}]))

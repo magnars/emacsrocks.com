@@ -7,12 +7,11 @@
   (html
    [:div {:id "episode"}
     [:h1 "Emacs Rocks! "
-     [:span "Episode " (:number episode) ": " (:name episode)]]
-    [:iframe {:width 560
-              :height 345
-              :src (str "http://www.youtube.com/embed/" (:youtube episode) "?hd=1")
-              :frameborder 0
-              :allowfullscreen true}]
+     [:span.nowrap "Episode " (:number episode) ": " (:name episode)]]
+    [:div.video-embed
+     [:iframe {:src (str "http://www.youtube.com/embed/" (:youtube episode) "?hd=1")
+               :frameborder "0"
+               :allowfullscreen true}]]
     [:div {:id "download"}
      [:a {:href (str "http://dl.dropbox.com/u/3615058/emacsrocks/emacs-rocks-" (:number episode) ".mov" "?dl=1")}
       "Download this episode"]

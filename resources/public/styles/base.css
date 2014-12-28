@@ -1,13 +1,13 @@
 html {background: black url(../images/dark-leather.png) repeat;}
 
-#main {width: 560px; margin: 0 auto; padding: 20px; font-family: Palatino, Arial; font-size: 22px; color: #fff;}
+#main {max-width: 560px; margin: 0 auto; padding: 20px; font-family: Palatino, Arial; font-size: 22px; color: #fff;}
 
 #logo_link {display: block; text-align: center; margin: 0 auto 20px;}
 
 a,
 .episode_list .numb {color: #ff9143;}
 .episode_list .name {display: block; margin-top: 1em; color: #ffaf91;}
-.episode_list a {float: left; margin: 14px; width: 197px; height: 113px; padding: 65px 0 0 54px; font-family: monaco, "consolas", "andale mono", "courier new"; font-size: 10px; background: url(../images/splash.png) no-repeat; color: #fff; text-decoration: none;}
+.episode_list a {display: block; margin: 14px auto; width: 197px; height: 113px; padding: 65px 0 0 54px; font-family: monaco, "consolas", "andale mono", "courier new"; font-size: 10px; background: url(../images/splash.png) no-repeat; color: #fff; text-decoration: none;}
 
 #welcome_text { margin: 15px 25px; text-align: center;}
 
@@ -39,3 +39,10 @@ a,
 #feeds { padding-top: 30px; text-align: center; }
 
 #footer { margin-bottom: 200px;}
+
+.nowrap {white-space: nowrap;}
+
+.video-embed { position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden; max-width: 100%; height: auto; }
+.video-embed iframe,
+.video-embed object,
+.video-embed embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }

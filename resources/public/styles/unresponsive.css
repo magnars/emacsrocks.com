@@ -1,2 +1,4 @@
 @import 'reset.css';
 @import 'base.css';
+@import "600up.css";
+#main {width: 560px;}
