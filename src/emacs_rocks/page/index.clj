@@ -1,7 +1,7 @@
 (ns emacs-rocks.page.index
   (:require [hiccup.core :refer [html]]))
 
-(defn- episode-link [episode]
+(defn episode-link [episode]
   (str "/e" (:number episode) ".html"))
 
 (defn- render-episode [episode]
