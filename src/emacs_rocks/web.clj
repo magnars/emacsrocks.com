@@ -2,7 +2,7 @@
   (:require [emacs-rocks.content :refer [load-content]]
             [emacs-rocks.layout :refer [render-page]]
             [emacs-rocks.pages :refer [create-pages]]
-            ;;[emacs-rocks.rss :as rss]
+            [emacs-rocks.rss :as rss]
             [net.cgrand.enlive-html :refer [sniptest]]
             [optimus.assets :as assets]
             [optimus.assets.load-css :refer [external-url?]]
@@ -45,7 +45,7 @@
     (-> content
         create-pages
         (update-vals #(partial prepare-page % content))
-        ;;(merge {"/atom.xml" (rss/atom-xml content)})
+        (merge {"/atom.xml" (rss/atom-xml content)})
         )))
 
 (def optimize optimizations/all)

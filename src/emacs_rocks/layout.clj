@@ -20,7 +20,7 @@
      [:link {:rel "stylesheet" :href (link/file-path request "/styles/responsive.css")}])
     (serve-to-media-query-clueless-browsers
      [:link {:rel "stylesheet" :href (link/file-path request "/styles/unresponsive.css")}])
-    ;;[:link {:href "/atom.xml" :rel "alternate" :title "Zombie CLJ" :type "application/atom+xml"}]
+    [:link {:href "/atom.xml" :rel "alternate" :title "Emacs Rocks!" :type "application/atom+xml"}]
     [:title (:title page)]]
    [:body
     [:script (slurp (io/resource "public/scripts/ga.js"))]

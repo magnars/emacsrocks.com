@@ -1,16 +1,16 @@
-[{:number "01" :name "From var to this"     :time "2011-10-21" :size "21mb" :duration 167 :youtube "O0UgY-DmFbU" :commands ["string-rectangle" "isearch-forward"]}
- {:number "02" :name "A vimgolf eagle"      :time "2011-10-21" :size "30mb" :duration 195 :youtube "dE2haYu0co8" :commands ["kmacro-start-macro" "digit-argument"]}
- {:number "03" :name "A vimgolf albatross"  :time "2011-10-22" :size "14mb" :duration 135 :youtube "ePIHUfFz8-c" :commands ["transpose-lines" "transpose-chars" "kmacro-start-macro" "digit-argument"]}
- {:number "04" :name "A rebind controversy" :time "2011-10-24" :size "14mb" :duration 152 :youtube "OA0AjzBgWU4" :commands ["iy-go-to-char" "downcase-word" "transpose-words"]}
- {:number "05" :name "Macros in style"      :time "2011-10-26" :size "12mb" :duration  92 :youtube "o1jJS_aibPA" :commands ["forward-list" "kmacro-start-macro"]}
- {:number "06" :name "Yeah! Snippets!"      :time "2011-11-02" :size  "8mb" :duration 101 :youtube "1W66B3CHaUo" :commands ["yas-expand"]}
- {:number "07" :name "Mind. Exploded."      :time "2011-11-09" :size "14mb" :duration  90 :youtube "NXTf8_Arl1w" :commands ["key-chord-define-global"]}
- {:number "08" :name "mark-multiple"        :time "2011-11-22" :size "12mb" :duration  90 :youtube "r2o9HYi7DOY" :commands ["mark-next-like-this" "rename-sgml-tag" "inline-string-rectangle"]}
- {:number "09" :name "expand-region"        :time "2012-01-25" :size "16mb" :duration 160 :youtube "_RvHz3vJ3kA" :commands ["expand-region"]}
- {:number "10" :name "Jumping around"       :time "2012-04-10" :size "23mb" :duration 128 :youtube "UZkpmegySnc" :commands ["ace-jump-mode" "ido-imenu"]}
- {:number "11" :name "swank-js"             :time "2012-07-04" :size "42mb" :duration 275 :youtube "qwtVtcQQfqc" :commands ["slime-js-send-defun" "slime-js-jack-in-node"]}
- {:number "12" :name "Working with HTML"    :time "2012-09-20" :size "27mb" :duration 114 :youtube "sBhQ2NIcrLQ" :commands ["query-replace" "cleanup-buffer" "isearch-forward" "expand-region" "rename-sgml-tag" "sgml-delete-tag" "describe-key" "eval-last-sexp" "flush-lines" "sgml-close-tag" "repeat" "zencoding-expand-line"]}
- {:number "13" :name "multiple-cursors"     :time "2012-09-24" :size "35mb" :duration 236 :youtube "jNa3axo40qM" :commands ["mc-mark-next-like-this" "yank-rectangle" "set-rectangular-region-anchor" "dired-toggle-read-only" "mc-mark-all-like-this" "eval-and-replace" "kmacro-name-last-macro" "insert-kbd-macro"]}
- {:number "14" :name "Paredit"              :time "2013-03-21" :size "41mb" :duration 219 :youtube "D6h5dFyyUX0" :commands []}
- {:number "15" :name "restclient-mode"      :time "2014-11-17" :size  "5mb" :duration 144 :youtube "fTvQTMOGJaw" :commands []}
+[{:number "01" :name "From var to this"     :date "2011-10-21" :size "21mb" :duration 167 :youtube "O0UgY-DmFbU" :commands ["string-rectangle" "isearch-forward"]}
+ {:number "02" :name "A vimgolf eagle"      :date "2011-10-21" :size "30mb" :duration 195 :youtube "dE2haYu0co8" :commands ["kmacro-start-macro" "digit-argument"]}
+ {:number "03" :name "A vimgolf albatross"  :date "2011-10-22" :size "14mb" :duration 135 :youtube "ePIHUfFz8-c" :commands ["transpose-lines" "transpose-chars" "kmacro-start-macro" "digit-argument"]}
+ {:number "04" :name "A rebind controversy" :date "2011-10-24" :size "14mb" :duration 152 :youtube "OA0AjzBgWU4" :commands ["iy-go-to-char" "downcase-word" "transpose-words"]}
+ {:number "05" :name "Macros in style"      :date "2011-10-26" :size "12mb" :duration  92 :youtube "o1jJS_aibPA" :commands ["forward-list" "kmacro-start-macro"]}
+ {:number "06" :name "Yeah! Snippets!"      :date "2011-11-02" :size  "8mb" :duration 101 :youtube "1W66B3CHaUo" :commands ["yas-expand"]}
+ {:number "07" :name "Mind. Exploded."      :date "2011-11-09" :size "14mb" :duration  90 :youtube "NXTf8_Arl1w" :commands ["key-chord-define-global"]}
+ {:number "08" :name "mark-multiple"        :date "2011-11-22" :size "12mb" :duration  90 :youtube "r2o9HYi7DOY" :commands ["mark-next-like-this" "rename-sgml-tag" "inline-string-rectangle"]}
+ {:number "09" :name "expand-region"        :date "2012-01-25" :size "16mb" :duration 160 :youtube "_RvHz3vJ3kA" :commands ["expand-region"]}
+ {:number "10" :name "Jumping around"       :date "2012-04-10" :size "23mb" :duration 128 :youtube "UZkpmegySnc" :commands ["ace-jump-mode" "ido-imenu"]}
+ {:number "11" :name "swank-js"             :date "2012-07-04" :size "42mb" :duration 275 :youtube "qwtVtcQQfqc" :commands ["slime-js-send-defun" "slime-js-jack-in-node"]}
+ {:number "12" :name "Working with HTML"    :date "2012-09-20" :size "27mb" :duration 114 :youtube "sBhQ2NIcrLQ" :commands ["query-replace" "cleanup-buffer" "isearch-forward" "expand-region" "rename-sgml-tag" "sgml-delete-tag" "describe-key" "eval-last-sexp" "flush-lines" "sgml-close-tag" "repeat" "zencoding-expand-line"]}
+ {:number "13" :name "multiple-cursors"     :date "2012-09-24" :size "35mb" :duration 236 :youtube "jNa3axo40qM" :commands ["mc-mark-next-like-this" "yank-rectangle" "set-rectangular-region-anchor" "dired-toggle-read-only" "mc-mark-all-like-this" "eval-and-replace" "kmacro-name-last-macro" "insert-kbd-macro"]}
+ {:number "14" :name "Paredit"              :date "2013-03-21" :size "41mb" :duration 219 :youtube "D6h5dFyyUX0" :commands []}
+ {:number "15" :name "restclient-mode"      :date "2014-11-17" :size  "5mb" :duration 144 :youtube "fTvQTMOGJaw" :commands []}
  ]
