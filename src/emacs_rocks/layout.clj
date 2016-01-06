@@ -27,4 +27,7 @@
     [:div {:id "main"}
      [:a {:id "logo_link" :href "/"}
       [:img {:src "/images/logo.png" :alt "Emacs Rocks!"}]]
-     (:body page)]]))
+     (:body page)
+     [:div {:id "footer"}
+      "This work is licensed under " [:a {:href "https://creativecommons.org/licenses/by-sa/3.0/"}
+                                      "Creative Commons Attribution-ShareAlike 3.0"]]]]))

@@ -10,6 +10,7 @@
                  [hiccup "1.0.4"]
                  [prone "0.8.0"]
                  [org.clojure/data.xml "0.0.7"]]
+  :main emacs-rocks.system
   :profiles {:dev {:dependencies [[ciderale/quick-reset "0.1.1"]
                                   [org.clojure/tools.namespace "0.2.8"]]
                    :source-paths ["dev"]}})
