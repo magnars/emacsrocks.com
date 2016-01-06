@@ -57,4 +57,12 @@
     [:a {:href "http://whattheemacsd.com"}
      [:span.nowrap "Check it out here"]]]
    [:div {:style "clear: both;"}]
+   [:h2 {:class "special_series_heading"}
+    "Parens of the Dead"]
+   [:p
+    "Want to see Emacs Rocks in action? I made a new video series, making a game
+    with Clojure. And Emacs doth rock in it. "
+    [:a {:href "http://parens-of-the-dead.com"}
+     [:span.nowrap "Watch Parens of the Dead"]]]
+   [:div {:style "clear: both;"}]
    [:div {:id "footer"}]))
