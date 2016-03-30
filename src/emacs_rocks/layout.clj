@@ -23,6 +23,7 @@
     [:link {:href "/atom.xml" :rel "alternate" :title "Emacs Rocks!" :type "application/atom+xml"}]
     [:title (:title page)]]
    [:body
+    [:script (slurp (io/resource "public/scripts/ga.js"))]
     [:div {:id "main"}
      [:a {:id "logo_link" :href "/"}
       [:img {:src "/images/logo.png" :alt "Emacs Rocks!"}]]
