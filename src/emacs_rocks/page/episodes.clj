@@ -13,9 +13,7 @@
                :frameborder "0"
                :allowfullscreen true}]]
     [:div {:id "download"}
-     [:a {:href (str "http://dl.dropbox.com/u/3615058/emacsrocks/emacs-rocks-" (:number episode) ".mov" "?dl=1")}
-      "Download this episode"]
-     " (" (:size episode) ")"]
+     "Want to download this episode? Use youtube-dl, it's great!"]
     [:div {:id "commands"}
      (map #(get-in content [:commands (str "/" % ".html")])
           (:commands episode))]

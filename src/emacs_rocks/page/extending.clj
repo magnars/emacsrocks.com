@@ -1,6 +1,6 @@
 (ns emacs-rocks.page.extending
-  (:require [hiccup.core :refer [html]]
-            [emacs-rocks.page.index :refer [episode-link]]))
+  (:require [emacs-rocks.page.index :refer [episode-link]]
+            [hiccup.core :refer [html]]))
 
 (defn render-episode-page [content episode next]
   (html
@@ -12,9 +12,7 @@
                :frameborder "0"
                :allowfullscreen true}]]
     [:div {:id "download"}
-     [:a {:href (str "http://dl.dropbox.com/u/3615058/emacsrocks/extending-emacs-rocks-" (:number episode) ".mov" "?dl=1")}
-      "Download this episode"]
-     " (" (:size episode) ")"]
+     "Want to download this episode? Use youtube-dl, it's great!"]
     [:div {:id "commits"}
      "In this episode: "
      (map (fn [commit]

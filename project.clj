@@ -2,7 +2,7 @@
   :description "The webpage for emacsrocks.com"
   :url "http://emacsrocks.com"
   :jvm-opts ["-Djava.awt.headless=true"]
-  :dependencies [[org.clojure/clojure "1.5.1"]
+  :dependencies [[org.clojure/clojure "1.7.0"]
                  [stasis "2.2.2"]
                  [optimus "0.15.1"]
                  [ring "1.3.1"]

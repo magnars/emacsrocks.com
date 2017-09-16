@@ -13,4 +13,5 @@
  {:number "13" :name "multiple-cursors"     :date "2012-09-24" :size "35mb" :duration 236 :youtube "jNa3axo40qM" :commands ["mc-mark-next-like-this" "yank-rectangle" "set-rectangular-region-anchor" "dired-toggle-read-only" "mc-mark-all-like-this" "eval-and-replace" "kmacro-name-last-macro" "insert-kbd-macro"]}
  {:number "14" :name "Paredit"              :date "2013-03-21" :size "41mb" :duration 219 :youtube "D6h5dFyyUX0" :commands []}
  {:number "15" :name "restclient-mode"      :date "2014-11-17" :size  "5mb" :duration 144 :youtube "fTvQTMOGJaw" :commands []}
+ {:number "16" :name "dired"                :date "2017-09-16" :size  "5mb" :duration  95 :youtube "8l4YVttibiI" :commands []}
  ]
