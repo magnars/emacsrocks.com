@@ -18,7 +18,7 @@ Build a new version of the site:
 
 ## License
 
-Copyright © 2014 Magnar Sveen
+Copyright © (iterate inc 2014) Magnar Sveen
 
 Distributed under the Eclipse Public License either version 1.0 or (at
 your option) any later version.
