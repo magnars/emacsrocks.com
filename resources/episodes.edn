@@ -14,4 +14,5 @@
  {:number "14" :name "Paredit"              :date "2013-03-21" :size "41mb" :duration 219 :youtube "D6h5dFyyUX0" :commands []}
  {:number "15" :name "restclient-mode"      :date "2014-11-17" :size  "5mb" :duration 144 :youtube "fTvQTMOGJaw" :commands []}
  {:number "16" :name "dired"                :date "2017-09-16" :size  "5mb" :duration  95 :youtube "8l4YVttibiI" :commands ["dired-toggle-read-only"]}
+ {:number "17" :name "magit"                :date "2017-09-28" :size  "5mb" :duration 159 :youtube "rzQEIRRJ2T0" :commands []}
  ]
