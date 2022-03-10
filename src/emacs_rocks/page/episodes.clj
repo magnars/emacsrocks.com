@@ -9,7 +9,7 @@
     [:h1 "Emacs Rocks! "
      [:span.nowrap "Episode " (:number episode) ": " (:name episode)]]
     [:div.video-embed
-     [:iframe {:src (str "http://www.youtube.com/embed/" (:youtube episode) "?hd=1")
+     [:iframe {:src (str "https://www.youtube.com/embed/" (:youtube episode) "?hd=1")
                :frameborder "0"
                :allowfullscreen true}]]
     [:div {:id "download"}
