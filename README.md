@@ -1,6 +1,6 @@
 # Emacs Rocks
 
-The webpage for http://emacsrocks.com.
+The webpage for https://emacsrocks.com.
 
 Made with [Stasis](https://github.com/magnars/stasis) for static site
 generation, [Hiccup](https://github.com/weavejester/hiccup) to

@@ -1,6 +1,6 @@
 (defproject emacs-rocks "0.1.0"
   :description "The webpage for emacsrocks.com"
-  :url "http://emacsrocks.com"
+  :url "https://emacsrocks.com"
   :jvm-opts ["-Djava.awt.headless=true"]
   :dependencies [[org.clojure/clojure "1.7.0"]
                  [stasis "2.2.2"]
